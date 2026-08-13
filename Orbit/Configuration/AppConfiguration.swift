@@ -25,7 +25,7 @@ struct WorkConfiguration: Sendable {
     static let `default` = WorkConfiguration(
         // Open edge://version in the intended Edge profile and copy the Profile Path's final directory,
         // such as "Profile 1", "Profile 2", or "Default".
-        edgeProfileDirectory: "Profile 1",
+        edgeProfileDirectory: "Profile 2",
         // Replace this placeholder with the VM/startup page used by your work environment.
         vmURL: URL(string: "https://example.com/work-vm-startup"),
         // Set this to a display name from System Settings > Displays, or leave nil to use any external display.
